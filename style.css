@@ -11,7 +11,13 @@ h2, h1 {
     padding:0px;
 }
 
-
+.imagemParallax{
+    height:300px;
+    background-attachment:scroll;
+    background-position:center;
+    background-size:cover;
+    padding-top:200px;
+}
 
 .imagemParallax .wrapper{
     text-align:center;
