@@ -4,7 +4,6 @@
 }
 h1::first-letter, p::first-letter {
     text-transform: uppercase;
-    font-weight: bold;
      color: black
 }
 p{
