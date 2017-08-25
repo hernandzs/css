@@ -2,12 +2,10 @@
     margin:0px;
     padding:0px;
 }
-
+h1::first-letter, p::first-letter {
+}
 p{
     font-size:30px;
-}
-
-h1::first-letter, p::first-letter {
 }
 
 h1{ 
