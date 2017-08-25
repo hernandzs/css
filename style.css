@@ -7,9 +7,10 @@ p{
     font-size:30px;
 }
 
-h1{ first-letter 
-font-size: 200%; 
-color: #00000; font-weight: bold; 
+h1::first-letter, p::first-letter {
+}
+
+h1{ 
 font-size:40px;
 text-transform: lowercase;
 }
