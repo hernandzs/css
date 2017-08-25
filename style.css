@@ -4,6 +4,8 @@
 }
 h1::first-letter, p::first-letter {
     text-transform: uppercase;
+    font-weight: bold;
+     color: blue
 }
 p{
     font-size:30px;
