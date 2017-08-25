@@ -4,7 +4,7 @@
 }
 h1::first-letter, p::first-letter {
     text-transform: uppercase;
-     color: black
+     color: #292929
 }
 p{
     font-size:30px;
