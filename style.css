@@ -7,9 +7,10 @@ p{
     font-size:5px;
 }
 
-h1{  
+h1{ 
+font-size:40px;
 text-transform: lowercase;
-font-size:30px;
+
 }
 
 .imagemParallax{
