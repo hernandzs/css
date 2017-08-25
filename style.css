@@ -8,9 +8,8 @@ p{
 }
 
 h1{ 
-first-letter  
-font-size: 200%; 
-color: #993333; font-weight: bold; 
+first-letter;  
+font-weight: bold; 
 text-transform: lowercase;
 font-size:10px;
 }
