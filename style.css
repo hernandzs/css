@@ -15,7 +15,7 @@ body {
 
 .banner {
   width: 100%;
-  height: 600px;
+  height: 250px;
   overflow: hidden;
   position: relative;
   background-color: #000;
@@ -63,4 +63,3 @@ body {
 .banner__caption p {
   margin-top: 20px;
 }
-
