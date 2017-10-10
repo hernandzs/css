@@ -1,0 +1,69 @@
+body {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.banner {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: translatez(0);
+          transform: translatez(0);
+}
+.banner__image, .banner__caption {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner__image {
+  height: 400px;
+  z-index: 10;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  -webkit-transform: translatez(0);
+          transform: translatez(0);
+}
+.banner__caption {
+  height: auto;
+  z-index: 20;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: -10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Esse aqui é o Titulo principal, caso eu venha querer usar.
+   location:  h1 
+.banner__caption h1 {
+  font-size: 82px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  font-family: 'Roboto', sans-serif;
+}
+*/
+
+.banner__caption p {
+  margin-top: 100px;
+  margin-left: -300px;
+  font-size: 27px;
+  line-height: 1.4;
+  font-family: 'impact', black;
+}
