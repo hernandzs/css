@@ -1,17 +1,14 @@
 body {
-  font-size: 18px;
+  font-size: 80px;
   line-height: 1.4;
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'impact', black;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.outer-container {
-  width: 100%;
-  min-height: 1400px;
-}
+
 
 .banner {
   width: 100%;
@@ -37,7 +34,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.6;
   -webkit-transform: translatez(0);
           transform: translatez(0);
 }
@@ -54,12 +51,22 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+/* Esse aqui é o Titulo principal, caso eu venha querer usar.
+   location:  h1 
 .banner__caption h1 {
   font-size: 82px;
   font-weight: 100;
   letter-spacing: -1px;
   font-family: 'Roboto', sans-serif;
 }
+*/
+
 .banner__caption p {
-  margin-top: 20px;
+  margin-top: 100px;
+  margin-left: -500px;
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: 'impact', black;
 }
+
